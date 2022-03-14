@@ -1,0 +1,9 @@
+type Store {
+  id: ID!
+  name: String!
+  owner: User
+}
+
+type Query {
+  getStores: [Store]!
+}
